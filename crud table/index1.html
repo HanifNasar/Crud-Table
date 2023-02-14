@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="entrydata">
+    <h2>Student Entry Form</h2>
+    <label>Student Name</label> <br>
+    <input type="text" placeholder="Name" id="name"><br><br>
+    <label> ID</label><br>
+    <input type="number" placeholder="Enter Your ID" id="Id"><br><br>
+    <label>Class</label><br>
+    <input type="text" placeholder="class" id="class"><br><br>
+    <label> Tamil Mark</label><br>
+    <input type="number" placeholder="Tamil Mark" id="Tamil"><br><br>
+    <label>English Mark</label><br>
+    <input type="number" placeholder="English Mark" id="English"><br><br>
+    <label> Maths Mark</label><br>
+    <input type="number" placeholder="Maths Mark" id="Maths"><br><br>
+    <label> Science Mark</label><br>
+    <input type="number" placeholder="Science Mark" id="Science"><br><br>
+    <label>Social Mark</label><br>
+    <input type="number" placeholder="Social Mark" id="Social"><br><br>
+    <label> Maximum Mark</label><br>
+    <input type="number" placeholder="Maximum Mark" id="Max"><br><br>
+    <button id="sumbit", onclick="sumbittext()">AddNew</button>
+</div>
+ <h2 class="h2">Student Data</h2>  
+<table>
+        <tr>
+            <th>Name</th>
+            <th>ID</th>
+            <th>Class</th>
+            <th>Tamil Mark</th>
+            <th>English Mark</th>
+            <th>Maths Mark</th>
+            <th>Science Mark</th>
+            <th>Social Mark</th>
+            <th id="total">Total Mark</th>
+            <th>Maximum Mark</th>
+            <th>Edit</th>
+            <th>Delete</th>
+            
+        </tr>
+        <tbody id="details">
+            
+        </tbody>
+    </table>
+    
+    <script src="script1.js"></script>
+</body>
+
+</html>

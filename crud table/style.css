@@ -1,0 +1,61 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+h2{
+    margin-bottom: 20px;
+}
+.h2{
+    margin : 30px 20px 20px 20px;
+}
+.entrydata{
+    border: 1px solid black;
+    width: 50%;
+    background-color: violet;
+    padding: 20px 20px;
+    margin-left: 20%;
+}
+#sumbit{
+    padding: 5px;
+    border-radius: 10px;
+    border-color: aliceblue;
+}
+#sumbit:hover{
+    background-color: aquamarine;
+}
+input{
+    width: 60%;
+    padding: 3px;
+
+}
+table{
+border-collapse: collapse;
+margin: 25px;
+font-size: 0.9rem;
+min-width: 900px;
+} 
+table  tr th{
+   background-color: #009879;
+   color:#ffffff;
+   text-align: left;
+   font-weight: bold;
+   font-size: 15px;
+   padding: 10px;
+}
+table tbody tr{
+    border-bottom: 1px solid black;
+   
+}
+table tbody tr td{
+    padding: 5px;
+}
+table tbody tr td button{
+    padding: 3px 3px;
+    background-color: white;
+    border-color: antiquewhite;
+    border-radius: 10px;
+    
+}
+table tbody tr td button:hover{
+    background-color: #d9d9d9d9;
+}
